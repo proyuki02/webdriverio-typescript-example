@@ -11,6 +11,6 @@
 ## Run test
 
     npm i
-    npm test
     npm run test:chrome
     npm run test:firefox
+    npm run test:ie

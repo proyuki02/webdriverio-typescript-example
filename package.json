@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env ENV=default wdio wdio.conf.js",
-    "test:chrome": "cross-env ENV=chrome wdio wdio.conf.js",
-    "test:firefox": "cross-env ENV=firefox wdio wdio.conf.js"
+    "test:chrome": "cross-env ENV=chrome wdio",
+    "test:firefox": "cross-env ENV=firefox wdio",
+    "test:ie": "cross-env ENV=ie wdio"
   },
   "author": "proyuki02",
   "license": "MIT",
